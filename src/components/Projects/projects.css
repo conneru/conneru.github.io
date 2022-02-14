@@ -1,0 +1,158 @@
+.projects-container {
+  display: flex;
+  opacity: 0;
+  height: 1450px;
+  width: 100%;
+  flex-direction: column;
+}
+.projects-container2 {
+  display: flex;
+  opacity: 0;
+  height: 1450px;
+  width: 100%;
+  flex-direction: column;
+  animation: slideup 1s forwards;
+}
+
+@keyframes slideup {
+  from {
+    opacity: 0;
+    padding-top: 200px;
+  }
+  to {
+    opacity: 1;
+    padding-top: 0px;
+  }
+}
+
+.descript-content {
+  display: flex;
+  padding: 20px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.descript-content2 {
+  display: flex;
+  text-align: end;
+  padding: 20px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.navBar {
+  /* position: fixed; */
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 40px;
+  word-spacing: 20px;
+}
+nav {
+  position: relative; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  background-color: #383838;
+  color: white;
+}
+
+.navItem {
+  font-size: 14px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+#logo {
+  position: absolute;
+  width: 100px;
+  top: -40px;
+  padding-left: 20px;
+  animation: reveal 1s;
+}
+
+.navItem:hover {
+  transition: 0.2s;
+  padding-bottom: 2px;
+  border-bottom: 3px solid white;
+}
+
+#email {
+  color: white;
+  font-size: 20px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  margin-right: 20px;
+
+  align-items: center;
+  font-size: 20px;
+}
+
+#link1 {
+  cursor: pointer;
+  opacity: 0;
+  animation: fade-in-right 1s forwards;
+  animation-delay: 0.2s;
+  margin-right: 20px;
+}
+#link2 {
+  cursor: pointer;
+  opacity: 0;
+  animation: fade-in-right 1s forwards;
+  animation-delay: 0.25s;
+  margin-right: 20px;
+}
+#link3 {
+  cursor: pointer;
+  opacity: 0;
+  animation: fade-in-right 1s forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0.1;
+    top: -80px;
+  }
+  to {
+    opacity: 1;
+    top: -40px;
+  }
+}
+
+@keyframes fade-in-right {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#resume {
+  border-radius: 5px;
+  border: 1px solid #ff0076;
+  color: #ff0076;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-bottom: 2.5px;
+  margin-right: 50px;
+  margin-left: 30px;
+  margin-top: 5px;
+  transition: 0.3s;
+  opacity: 0;
+  animation: fade-in-right 1s forwards;
+  animation-delay: 0.35s;
+}
+
+#resume:hover {
+  background: #7777776c;
+  transition: 0.3s;
+}
