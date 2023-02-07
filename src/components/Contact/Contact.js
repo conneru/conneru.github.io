@@ -29,7 +29,7 @@ function Contact() {
             marginBottom: "50px",
           }}
         >
-          04.{" "}
+          05.{" "}
         </span>{" "}
         What's next?
       </div>

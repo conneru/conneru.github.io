@@ -19,24 +19,13 @@ function Projects() {
         }}
       >
         <div style={{ display: "flex" }}>
-          <hr
-            style={{
-              transform: "rotate(90deg)",
-
-              height: "320px",
-              marginBottom: "-400px",
-              marginTop: "-132px",
-              marginRight: "170px",
-            }}
-          />
           <div
             style={{
               color: "white ",
               display: "flex",
-              justifyContent: "flex-end",
               fontFamily: "GT",
               fontSize: "40px",
-              paddingBottom: "40px",
+              paddingBottom: "70px",
             }}
           >
             <span
@@ -46,12 +35,23 @@ function Projects() {
                 fontSize: "30px",
                 paddingTop: "8px",
                 paddingRight: "5px",
+                // paddingBottom: "70px",
               }}
             >
-              02.{" "}
+              03.{" "}
             </span>{" "}
             Projects
           </div>
+          <hr
+            style={{
+              transform: "rotate(90deg)",
+
+              height: "320px",
+              marginBottom: "-400px",
+              marginTop: "-130px",
+              marginLeft: "170px",
+            }}
+          />
         </div>
         {/* --------------------------SIDEWALK SURFERS---------------------------------- */}
         <div className="project-container2">
@@ -172,7 +172,7 @@ function Projects() {
           </div>
         </div>
         {/* --------------------------KEYPOP---------------------------------- */}
-        <div className="project-container2">
+        {/* <div className="project-container2">
           <a
             href="https://keypop.herokuapp.com/"
             target="_blank"
@@ -232,7 +232,7 @@ function Projects() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

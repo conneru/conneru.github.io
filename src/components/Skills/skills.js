@@ -11,15 +11,26 @@ function Skills({ isVisible }) {
   return (
     <div className={style} ref={ref}>
       <div id="skills" style={{ display: "flex" }}>
-        <div style={{ display: "flex", width: "100%" }}>
+        <div style={{ display: "flex" }}>
+          <hr
+            style={{
+              transform: "rotate(90deg)",
+
+              height: "320px",
+              marginBottom: "-400px",
+              marginTop: "-132px",
+              marginLeft: "450px",
+            }}
+          />
           <div
             style={{
               color: "white ",
               display: "flex",
-              justifyContent: "flex-start",
+              justifyContent: "flex-end",
               fontFamily: "GT",
               fontSize: "40px",
-              paddingBottom: "40px",
+              paddingBottom: "100px",
+              marginLeft: "170px",
             }}
           >
             <span
@@ -31,20 +42,10 @@ function Skills({ isVisible }) {
                 paddingRight: "5px",
               }}
             >
-              03.{" "}
+              04.{" "}
             </span>{" "}
             Skills
           </div>
-          <hr
-            style={{
-              transform: "rotate(90deg)",
-
-              height: "320px",
-              marginBottom: "-50px",
-              marginTop: "-130px",
-              marginLeft: "170px",
-            }}
-          />
         </div>
         <div id="skillItems">
           <div className="iconItem">
@@ -54,6 +55,10 @@ function Skills({ isVisible }) {
           <div className="iconItem">
             <i class="devicon-python-plain icon"></i>
             <p>Python</p>
+          </div>
+          <div className="iconItem">
+            <i class="devicon-java-plain icon"></i>
+            <p>Java</p>
           </div>
           <div className="iconItem">
             <i class="devicon-react-original icon"></i>

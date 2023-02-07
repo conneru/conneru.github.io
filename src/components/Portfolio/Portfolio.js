@@ -8,12 +8,14 @@ import Contact from "../Contact/Contact";
 import under from "../../font/under2.png";
 import resume from "../../font/Conner Underhill Resume.pdf";
 import { useRef } from "react";
+import Work from "../Work/work";
 
 function Portfolio() {
   let skills = useRef(null);
   let about = useRef(null);
   let projects = useRef(null);
   let contact = useRef(null);
+  let work = useRef(null);
   function scroll(ref) {
     ref.current.scrollIntoView({ behavior: "smooth" });
   }
@@ -27,14 +29,18 @@ function Portfolio() {
               <span style={{ color: "#ff0076", marginRight: "5px" }}>01.</span>
               About
             </p>
+            <p id="link5" onClick={() => scroll(work)}>
+              <span style={{ color: "#ff0076", marginRight: "5px" }}>02.</span>
+              Work
+            </p>
             <p id="link2" onClick={() => scroll(projects)}>
               {" "}
-              <span style={{ color: "#ff0076", marginRight: "5px" }}>02.</span>
+              <span style={{ color: "#ff0076", marginRight: "5px" }}>03.</span>
               Projects
             </p>
             <p id="link3" onClick={() => scroll(skills)}>
               {" "}
-              <span style={{ color: "#ff0076", marginRight: "5px" }}>03.</span>
+              <span style={{ color: "#ff0076", marginRight: "5px" }}>04.</span>
               Skills
             </p>
             <p id="link4" onClick={() => scroll(contact)}>
@@ -45,7 +51,7 @@ function Portfolio() {
                   marginRight: "5px",
                 }}
               >
-                04.
+                05.
               </span>
               Contact
             </p>
@@ -79,10 +85,13 @@ function Portfolio() {
           <section ref={about}>
             <About />
           </section>
+          <section ref={work}>
+            <Work />
+          </section>
           <section
             ref={projects}
             style={{
-              height: "1450px",
+              height: "1200px",
               width: "100%",
               display: "flex",
               flexDirection: "column",

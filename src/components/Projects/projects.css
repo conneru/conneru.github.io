@@ -1,14 +1,14 @@
 .projects-container {
   display: flex;
   opacity: 0;
-  height: 1450px;
+  height: 1000px;
   width: 100%;
   flex-direction: column;
 }
 .projects-container2 {
   display: flex;
   opacity: 0;
-  height: 1450px;
+  height: 1000px;
   width: 100%;
   flex-direction: column;
   animation: slideup 1s forwards;

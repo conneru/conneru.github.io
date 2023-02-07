@@ -61,16 +61,7 @@ function About() {
         >
           I'm a web developer born and raised in Raleigh, North Carolina. I love
           problem solving and creating inviting, responsive, and functional
-          websites. I take pride in my flexability as a developer whether it's
-          working solo in the back end or with a whole team of people in the
-          front end I'm your guy!
-          {/* Switching careers from a mundane Retail Pharmacy job; Web development
-          brought out a whole new creativity in me! I've made apps using
-          JavaScript, Python, React, Redux, and Flask along with many other
-          packages and technologies! It's very rewarding making a functional,
-          interactive, and responsive full-stack website from scratch but even
-          the "boring" parts like hunting down and squashing bugs in my code
-          satiates my craving for problem solving and learning! */}
+          websites.
         </div>
       </div>
       <div className="overlay">

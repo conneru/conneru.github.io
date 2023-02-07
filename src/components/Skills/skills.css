@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 300px;
+  /* margin-top: 100px; */
 }
 .skill-container2 {
   display: flex;
@@ -12,7 +12,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 300px;
+  /* margin-top: 100px; */
   animation: slideup 1s forwards;
 }
 
