@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.da177cd1.chunk.css",
-    "main.js": "/static/js/main.186df134.chunk.js",
-    "main.js.map": "/static/js/main.186df134.chunk.js.map",
+    "main.css": "/static/css/main.1d04597a.chunk.css",
+    "main.js": "/static/js/main.152120c6.chunk.js",
+    "main.js.map": "/static/js/main.152120c6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1e57c914.js",
     "runtime-main.js.map": "/static/js/runtime-main.1e57c914.js.map",
     "static/js/2.6f1ae6a4.chunk.js": "/static/js/2.6f1ae6a4.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.f11d0341.chunk.js": "/static/js/3.f11d0341.chunk.js",
     "static/js/3.f11d0341.chunk.js.map": "/static/js/3.f11d0341.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.da177cd1.chunk.css.map": "/static/css/main.da177cd1.chunk.css.map",
+    "static/css/main.1d04597a.chunk.css.map": "/static/css/main.1d04597a.chunk.css.map",
     "static/js/2.6f1ae6a4.chunk.js.LICENSE.txt": "/static/js/2.6f1ae6a4.chunk.js.LICENSE.txt",
     "static/media/Conner Underhill Resume.f95f1f2f.pdf": "/static/media/Conner Underhill Resume.f95f1f2f.pdf",
     "static/media/index.css": "/static/media/TriakisFont-Regular.aea0dc7e.otf",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.1e57c914.js",
     "static/js/2.6f1ae6a4.chunk.js",
-    "static/css/main.da177cd1.chunk.css",
-    "static/js/main.186df134.chunk.js"
+    "static/css/main.1d04597a.chunk.css",
+    "static/js/main.152120c6.chunk.js"
   ]
 }
