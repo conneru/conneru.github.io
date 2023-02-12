@@ -55,10 +55,10 @@ function Portfolio() {
               </span>
               Contact
             </p>
+            <a href={resume} rel="noreferrer" target="_blank" id="resume">
+              Resume
+            </a>
           </div>
-          <a href={resume} rel="noreferrer" target="_blank" id="resume">
-            Resume
-          </a>
         </div>
         <img alt="logo" src={under} id="logo" />
       </nav>
