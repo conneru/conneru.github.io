@@ -101,28 +101,34 @@ function Work() {
               }}
             >
               <span>
-                <span style={{ color: "#ff0076" }}>➢</span> Corresponded with
-                partnered firms acting as a point of contact for questions or
-                concerns with any of the 700+ REST API routes provided
+                <span style={{ color: "#ff0076" }}>➢</span> Created and
+                delivered technical{" "}
+                <span style={{ color: "#ff0076" }}>documentation</span> to
+                assist developers in using
+                <span style={{ color: "#ff0076" }}> APIs</span> and integrating
+                products into their workflows.
               </span>
               <br />
               <span>
-                <span style={{ color: "#ff0076" }}>➢</span> Developed multiple
-                customer-facing CodePen pages demonstrating proper workflows
-                using REST APIs written using JavaScript, HTML, and CSS
+                <span style={{ color: "#ff0076" }}>➢</span>Managed relationships
+                with partnered firms and{" "}
+                <span style={{ color: "#ff0076" }}>API</span> customers,
+                providing support and ensuring successful integration of
+                Envestnet's <span style={{ color: "#ff0076" }}>APIs</span>.
               </span>
               <br />
               <span>
-                <span style={{ color: "#ff0076" }}>➢</span> Developed an
-                internal tool to automate the process of generating text files
-                containing REST API routes written in Java
+                <span style={{ color: "#ff0076" }}>➢</span> Developed{" "}
+                <span style={{ color: "#ff0076" }}>sample code</span> and{" "}
+                <span style={{ color: "#ff0076" }}>demos</span> to showcase
+                proper implementation of Envestnet’s technology and{" "}
+                <span style={{ color: "#ff0076" }}>APIs</span>.
               </span>
               <br />
               <span>
-                <span style={{ color: "#ff0076" }}>➢</span> Authored Postman
-                collections, code samples, and general documentation for
-                multiple REST API products located on a centralized developer
-                portal
+                <span style={{ color: "#ff0076" }}>➢</span> Worked closely with
+                engineering teams to ensure timely and high-quality delivery of
+                new <span style={{ color: "#ff0076" }}>API documentation</span>.
               </span>
             </div>
           </div>
